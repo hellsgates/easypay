@@ -1,12 +1,13 @@
 :root {
     /* colors */
     --clr-light: #FFFFFF;
+    --clr-dark: #222222;
     --clr-purple: #60269E;
     --clr-pink: #F1C9C9;
-    --clr-lightblue: #F6EEFF;
+    --clr-lightpink: #F6EEFF;
     --clr-grey: #676767;
     --clr-darkergrey: #595959;
-    --clr-blue: #95BEFA;
+    --clr-blue: #267bfb;
 
     /* sizes */
     --size-xxs: 0.5rem ;
@@ -27,5 +28,6 @@
 }
 
 body {
-    background-color: var(--clr-lightblue);
+    background-color: var(--clr-lightpink);
+    font-family: 'Roboto', sans-serif;
 }

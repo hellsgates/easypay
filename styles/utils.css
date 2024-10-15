@@ -11,10 +11,18 @@
 }
 
 .btn {
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
     background-color: var(--clr-purple);
     color: var(--clr-light);
-    font-weight: 600;
+    padding: 0.5em 1em;
     border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
 }
 
 /* xs */

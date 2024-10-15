@@ -1,0 +1,35 @@
+.navbar__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar__div {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar__div-1 {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.navbar__link {
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.navbar__link:hover {
+    transform: translateY(-3px);
+}
+
+.navbar__list li:first-child .navbar__link {
+    font-weight: 800;
+}
+
+.navbar__list li:nth-child(2) .navbar__link {
+    color: var(--clr-dark);
+}
+

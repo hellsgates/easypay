@@ -1,0 +1,18 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero__header {
+    font-size: var(--size-5xl);
+    width: 18ch;
+}
+
+.hero__span {
+    color: var(--clr-blue);
+}
+
+.hero__description {
+    margin-bottom: 40px;
+    color: var(--clr-grey);
+}

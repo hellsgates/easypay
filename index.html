@@ -1,33 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Easypay</title>
   </head>
   <body>
     <header class="navbar container">
       <ul class="navbar__list">
-        <li class="navbar__link">
-          <a href="">Easypay</a>
-        </li>
-        <li class="navbar__link">
-          <a href="">Business</a>
-        </li>
-        <li class="navbar__link">
-          <a href="">Sign Up</a>
-        </li>
-        <li class="navbar__link btn">
-          <a href="" class="btn">Login</a>
-        </li>
+        <div class="navbar__div-1">
+          <li>
+            <a href="" class="navbar__link">Easypay</a>
+          </li>
+          <li>
+            <a href="" class="navbar__link">Business</a>
+          </li>
+        </div>
+        <div class="navbar__div">
+          <li>
+            <a href="" class="navbar__link">Sign Up</a>
+          </li>
+          <li>
+            <a href="" class="navbar__link btn">Login</a>
+          </li>
+        </div>
       </ul>
     </header>
-    <!-- <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer> -->
+    <section class="hero container section">
+      <div class="hero__content-wrapper">
+        <h1 class="hero__header">
+          Payments made easy on <span class="hero__span">Easy Pay</span>
+        </h1>
+        <p class="hero__description">
+          A platform for accepting payment, making payments and paying bills
+        </p>
+        <a class="btn">Get Started</a>
+        <a class="btn">Join our Community</a>
+      </div>
+      <div class="hero__image-wrapper">
+        <img class="hero__img" src="/easypay-hero.png" alt="" />
+      </div>
+    </section>
+    <section class="info container section">
+      <div class="info__div">
+        <img src="/easypay-working.png" alt="" />
+        <h3 class="info__header">Sign Up</h3>
+        <p class="info__description">
+          Create a profile and confirm your identity. It's that simple to begin
+          your crypto journey. Let's go!!
+        </p>
+      </div>
+      <div class="info__div">
+        <img src="/easypay-working.png" alt="" />
+        <h3 class="info__header">Funds</h3>
+        <p class="info__description">
+          Create a profile and confirm your identity. It's that simple to begin
+          your crypto journey. Let's go!!
+        </p>
+      </div>
+      <div class="info__div">
+        <img src="/easypay-working.png" alt="" />
+        <h3 class="info__header">Make Payment</h3>
+        <p class="info__description">
+          Create a profile and confirm your identity. It's that simple to begin
+          your crypto journey. Let's go!!
+        </p>
+      </div>
+    </section>
+    <section class="cash container section">
+      <div class="cash__images-wrapper">
+        <!-- <img src="/easypay-iphoneborder.png" alt="">
+      <img src="/easypay-screen1.png" alt="">
+      <img src="/easypay-bills.png" alt=""> -->
+      </div>
+      <h2 class="cash__header">Send Cash with just a username</h2>
+      <p class="cash__description">
+        Transfer cash to friends using just their username. It’s that easy and
+        it's free!
+      </p>
+      <a href="" class="btn">Send cash for free</a>
+    </section>
+    <!-- <section></section> -->
+    <!-- <section></section> -->
+    <!-- <footer></footer> -->
   </body>
+  <script type="module" src="./src/main.js"></script>
 </html>

@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--clr-light);
+    width: 1328px;
+}
+
+.info__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30ch;
+    padding: 1em;
+}
+
+.info__header {
+    color: var(--clr-purple);
+}
+
+.info__description {
+    color: var(--clr-grey);
+}
