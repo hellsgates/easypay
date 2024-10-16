@@ -14,7 +14,7 @@
     display: inline-block;
     font-weight: 500;
     text-decoration: none;
-    background-color: var(--clr-purple);
+    background-color: var(--clr-lightpurple);
     color: var(--clr-light);
     padding: 0.5em 1em;
     border-radius: 50px;
@@ -56,9 +56,6 @@
         max-width: 1024px;
     }
 
-    .section {
-        margin-top: 10rem;
-    }
 }
 
 /* xl */

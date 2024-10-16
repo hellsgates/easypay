@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: var(--clr-light);
-    width: 1328px;
+    width: 70% !important;
 }
 
 .info__div {
@@ -13,6 +13,7 @@
     width: 30ch;
     padding: 1em;
 }
+
 
 .info__header {
     color: var(--clr-purple);

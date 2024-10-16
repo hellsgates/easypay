@@ -25,11 +25,12 @@
     transform: translateY(-3px);
 }
 
-.navbar__list li:first-child .navbar__link {
+.first-link {
     font-weight: 800;
 }
 
-.navbar__list li:nth-child(2) .navbar__link {
+.second-link {
     color: var(--clr-dark);
 }
+
 

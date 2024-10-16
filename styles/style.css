@@ -3,11 +3,13 @@
     --clr-light: #FFFFFF;
     --clr-dark: #222222;
     --clr-purple: #60269E;
+    --clr-lightpurple: #853cd4;
     --clr-pink: #F1C9C9;
     --clr-lightpink: #F6EEFF;
     --clr-grey: #676767;
     --clr-darkergrey: #595959;
     --clr-blue: #267bfb;
+    --clr-lightblue: #76adff;
 
     /* sizes */
     --size-xxs: 0.5rem ;

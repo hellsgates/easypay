@@ -1,7 +1,41 @@
+.cash {
+    display: flex;
+}
+
+
+.cash__content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: none;
+}
+
 .cash__header {
     color: var(--clr-dark);
+    font-size: var(--size-5xl);
+    margin-bottom: 0px;
 }
 
 .cash__description {
     color: var(--clr-grey);
+    font-size: var(--size-xl);
+    margin-bottom: 2.5em;
+}
+
+.cash__btn {
+    padding: 0.8em 1.5em;
+}
+
+.cash__btn:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-lightpurple);
+    border: 1px solid var(--clr-lightpurple);
+    transition: 0.3s;
+}
+
+#bills {
+    position: relative;
+    left: -100px;
+    bottom: 215px;
 }

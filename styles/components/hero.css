@@ -1,18 +1,50 @@
 .hero {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 15em;
+    padding: 5em 0em;
 }
 
 .hero__header {
-    font-size: var(--size-5xl);
+    font-size: var(--size-7xl);
     width: 18ch;
 }
 
+.hero__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hero__span {
-    color: var(--clr-blue);
+    color: var(--clr-lightpurple);
 }
 
 .hero__description {
     margin-bottom: 40px;
     color: var(--clr-grey);
+}
+
+.hero__firstbtn, .hero__secondbtn {
+    padding: 0.5em 2em;
+    font-size: var(--size-xl);
+}
+
+.hero__secondbtn {
+    background-color: transparent;
+    color: var(--clr-lightpurple);
+    border: 1px solid var(--clr-lightblue);
+    margin-left: 20px;
+}
+
+.hero__firstbtn:hover {
+    background-color: var(--clr-light);
+    color: var(--clr-lightpurple);
+    border: 1px solid var(--clr-lightpurple);
+    transition: 0.3s;
+}
+
+.hero__secondbtn:hover {
+    background-color: var(--clr-lightpurple);
+    color: var(--clr-light) !important;
 }
