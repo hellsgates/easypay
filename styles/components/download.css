@@ -1,0 +1,36 @@
+.download {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: url(public/easypay-background.png);
+    background-size: cover;
+}
+
+.download__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.download__second-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.download__header {
+    font-size: var(--size-4xl);
+    color: var(--clr-light);
+    width: 20ch;
+}
+
+.download__description {
+    font-size: var(--size-lg);
+    color: var(--clr-light);
+}
+
+.download__img {
+    display: flex;
+}

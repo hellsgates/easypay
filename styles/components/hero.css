@@ -8,6 +8,7 @@
 .hero__header {
     font-size: var(--size-7xl);
     width: 18ch;
+    color: var(--clr-dark);
 }
 
 .hero__content-wrapper {
